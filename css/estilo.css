@@ -216,6 +216,10 @@ footer a:hover{
 
 @media screen and (max-width: 800px){
 
+header{
+  background: white;
+}
+
 .header__social{
   margin-right: -1000px;
 }
@@ -227,6 +231,7 @@ footer a:hover{
 }
 
 .sumate__p{
+  font-size: 40px;
 }
 
 .sumate__a{
