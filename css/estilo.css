@@ -21,20 +21,20 @@ a{
                                           /* HEADER */
 header:before{
   content: "";
-  height: 13px;
+  height: 18px;
   width: 100%;
   display: block;
   background: linear-gradient(to right, #a02382 0%,#e62328 17%,#e62328 17%,#e62328 39%,#f58723 61%,#ffd205 84%,#ffd205 100%);
 }
 
 header{
-  height:80px;
+  height:100px;
   background:#ffda00;
  }     
 
 .header__logo{
   display: inline-block;
-  margin-left: 15px;
+  margin: 10px 20px;  
 }
 
 .header__social{
@@ -85,30 +85,30 @@ section{
 
 .sumate__p{
   display: block;
-  width: 58%;
-  font-size:50px;
-  margin:200px 50px 20px;
+  width: 60%;
+  font-size:52px;
+  margin:200px 50px;
   color: #fff;
   position: relative;
   box-sizing: border-box;
 }
 
-.sumate__a{
+.sumate__button{
   display: inline-block;
   background: #fff;
   color:#000;
   padding:12px 42px;
   font-size:23px;
   border-radius: 30px;
-  margin: 20px 55px;
+  margin-top: 80px;
   position: relative;
 }
 
-.sumate__a:hover{
+.sumate__button:hover{
   background:#ffda00;
 }
 
-.sumate__a:active{
+.sumate__button:active{
   background:#D4A811;
 }
 
@@ -137,13 +137,14 @@ section{
   z-index:1;
   font-size: 40px;
   margin-top: 80px;
+  width: 70%;
 }
 
 .nosotros__p{
  z-index:1;
  font-size: 125%;
- width: 900px;
- margin-top: 100px;
+ width: 70%;
+ margin-top: 80px;
  line-height: 125%;
 }
 
@@ -157,7 +158,7 @@ section{
   cursor: pointer;
   margin-top: 10px;
   color: #fff;
-  margin-top: 150px;
+  margin-top: 80px;
 }
 
 .nosotros__a:hover{
@@ -224,19 +225,16 @@ header{
   margin-right: -1000px;
 }
 
-.menu__buton{
+.menu__button{
   display: inline-flex;
   color: red;
   margin:0px 600px;
 }
 
-.sumate__p{
-  font-size: 40px;
-}
-
-.sumate__a{
-  margin: 50px 200px;
+.sumate__button{
+  margin-left:35%;
   text-align: center;
+  font-size:19px;
 }
 
 
