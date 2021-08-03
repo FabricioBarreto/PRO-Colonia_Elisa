@@ -21,26 +21,27 @@ a{
                                           /* HEADER */
 header:before{
   content: "";
-  height: 18px;
+  height: 15px;
   width: 100%;
   display: block;
   background: linear-gradient(to right, #a02382 0%,#e62328 17%,#e62328 17%,#e62328 39%,#f58723 61%,#ffd205 84%,#ffd205 100%);
 }
 
 header{
-  height:100px;
+  height:90px;
   background:#ffda00;
  }     
 
 .header__logo{
   display: inline-block;
-  margin: 10px 20px;  
+  margin: 10px 20px;
+  width: 50px;  
 }
 
 .header__social{
   float: right;
   margin-right: 10px;
-  margin-top: 5px;
+  margin-top: 4px;
 }
 
 .header__social-li{
@@ -57,6 +58,12 @@ header{
 .header__social-a:hover{
  color: #4B4B4B;
 }
+
+ .menu__button{
+  font-size: 30px;
+  display: none;
+  color: #000;
+ }
 
                                            /* SECTION */
 section{
@@ -85,8 +92,9 @@ section{
 .sumate__p{
   display: block;
   width: 50%;
-  font-size:54px;
-  margin:160px 50px 0px;
+  min-width: 800px;
+  font-size:58px;
+  margin:190px 50px 0px;
   color: #fff;
   position: relative;
   box-sizing: border-box;
@@ -101,11 +109,12 @@ section{
   font-size:25px;
   border-radius: 30px;
   position: relative;
-  margin: 30px 50px;
+  margin: 32px 50px;
 }
 
 .sumate__button:hover{
   background:#ffda00;
+  transition: .5s;
 }
 
 .sumate__button:active{
@@ -138,6 +147,7 @@ section{
   font-size: 48px;
   margin-top: 70px;
   width: 70%;
+  font-weight: bold;
 }
 
 .nosotros__p{
@@ -216,27 +226,46 @@ footer a:hover{
  color: #fff;
 }
 
-@media screen and (max-width: 870px){
+@media screen and (max-width: 768px){
+
+header:before{
+  content: "";
+  height: 12px;
+  width: 100%;
+  display: block;
+  background: linear-gradient(to right, #a02382 0%,#e62328 17%,#e62328 17%,#e62328 39%,#f58723 61%,#ffd205 84%,#ffd205 100%);
+}
+
+header{
+  height:60px;
+ }     
+
+.header__logo{
+  display: inline-block;
+  margin: -5px 20px;
+  width: 35px;  
+}
 
 .header__social{
-  margin-right: -1000px;
+  display: none;
 }
 
 .menu__button{
-  display: inline-flex;
-  color: red;
-  margin:0px 600px;
-}
-
-.sumate__button{
-  margin: 40px;
-  text-align: center;
-  font-size:19px;
+  display: ;
 }
 
 .sumate__p{
   width: 100%;
-  margin:220px 20px 0px;
+  margin:210px 20px 0px;
+  font-size: 40px;
+  max-width: 600px;
+  min-width: 0;
+}
+
+.sumate__button{
+  margin: 30px 20px;
+  font-size:18px;
+  padding: 12px 35px;
 }
 
 .nosotros__p{
