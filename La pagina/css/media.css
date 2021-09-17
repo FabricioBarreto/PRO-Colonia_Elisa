@@ -1,0 +1,151 @@
+@media screen and (max-width: 768px){
+                                          /* HEADER */
+header:before{
+  content: "";
+  height: 12px;
+  width: 100%;
+  display: block;
+  background: linear-gradient(to right, #a02382 0%,#e62328 17%,#e62328 17%,#e62328 39%,#f58723 61%,#ffd205 84%,#ffd205 100%);
+}
+
+header{
+  height:60px;
+ }
+
+.header_link{
+  display: none;
+}
+
+.btn_menu{
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size:20px;
+  line-height: 50px;
+}
+
+.header_logo{
+  margin: 5px 20px;
+  width: 35px;  
+}
+
+.header ul{
+  display: none;
+}
+
+.header li{
+  line-height: 50px;
+}
+                                          /* INICIO */
+.sumate{
+  margin-top:0px;
+}
+
+.sumate p{
+  width: 100%;
+  margin:215px 12px 0px;
+  font-size: 40px;
+  max-width: 600px;
+  min-width: 0;
+}
+
+.sumate a{
+  margin: 30px 12px;
+  font-size:18px;
+  padding: 12px 35px;
+}
+
+.nosotros p{
+ z-index:1;
+ font-size: 125%;
+ width: 80%;
+ margin-top: 50px;
+ line-height: 125%;
+}
+
+.nosotros a{
+  width:150px; 
+  z-index:1;
+  font-size: 125%;
+  border-radius: 50px;
+  border:1px solid #fff;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  color: #fff;
+  margin-top: 50px;
+}
+                                          /* GALERIA */
+.galeria{
+  margin-top: 20px;
+}
+
+                                          /* NAV */
+.nav{
+  background: linear-gradient(37deg, rgba(15,100,170,1) 0%,rgba(160,35,130,1) 20%,rgba(195,35,85,1) 48%,rgba(230,35,40,1) 75%,rgba(245,135,35,1) 100%);
+  right:0px;
+  height:110vh;
+  top:0vh;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 1000;
+  transition: transform .5s ease-in;
+  transform: translateX(100%)
+}
+
+.nav_logo{
+  display: block;
+  width: 60px;
+  padding-top:20px;
+  padding-left: 20px;
+}
+
+.nav li{
+  margin:30px 20px;
+  list-style:none;
+}
+
+.nav a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav li a:hover{
+  border-bottom: 1px solid #fff;
+}
+
+.nav_social li a:hover{
+  color: #d2d2d2;
+  border: none;
+}
+
+.nav_social{
+  display: flex;
+}
+
+.nav_social a{
+  font-size: 35px;
+}
+
+.close{
+  color: #fff;
+  font-size: 35px;
+  position: absolute;
+  top: 25px;
+  right:20px;
+  cursor: pointer;
+}
+
+.close:hover{
+  color: #d2d2d2;
+}
+
+.active{
+  transition: transform .5s ease-in;
+  transform: translateX(0%)
+}
+
+}
